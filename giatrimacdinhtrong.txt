@@ -35,7 +35,7 @@ selenium = new WebDriverBackedSelenium(driver, baseUrl)
 selenium.open("https://hoclieu.sachmem.vn/folder/0")
 selenium.click("id=link-login")
 selenium.click("link=Google")
-selenium.type("id=identifierId", "tuananhddo")
+selenium.type("id=identifierId", "Linhpham")
 selenium.click("class=RveJvd snByac")
 WebUI.delay(2);
 selenium.type("name=password", "idonttellu")
